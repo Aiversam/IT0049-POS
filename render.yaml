@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: it0049-pos
-    runtime: docker
-    buildCommand: "composer install"
-    envVars:
-      - key: CI_ENVIRONMENT
-        value: production
